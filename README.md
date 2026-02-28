@@ -25,7 +25,7 @@ https://burger-king-game.onrender.com
 ## How to replace assets
 
 Replace images inside the /public folder:
-- background.png
+- background.webp
 - crown.png
 
 If filenames change, update them inside `ISpyGame.tsx`.
