@@ -33,7 +33,7 @@ export default function ISpyGame() {
   useEffect(() => {
     // load background
     const bg = new Image();
-    bg.src = "/background.png";
+    bg.src = "/background.webp";
     bg.onload = () => {
       bgRef.current = bg;
       resizeCanvasToDisplaySize();
