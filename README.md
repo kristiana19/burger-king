@@ -5,6 +5,10 @@ Users can explore a large scene by dragging and attempt to find the hidden item.
 
 ---
 
+## Live Demo
+
+https://burger-king-game.onrender.com
+
 ## How to run
 
 1. Install dependencies:
