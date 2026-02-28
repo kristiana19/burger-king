@@ -204,7 +204,7 @@ export default function ISpyGame() {
     ctx.font = "14px system-ui, sans-serif";
     ctx.fillText("Drag to pan • Tap the crown to win", 26, 40);
 
-    const capsule = capsuleRef.current;
+    /* const capsule = capsuleRef.current;
     if (capsule) {
         ctx.drawImage(
             capsule,
@@ -224,7 +224,7 @@ export default function ISpyGame() {
             140,
             140
         );
-    }
+    } */
   }
 
   function canvasToImageCoords(e: React.PointerEvent<HTMLCanvasElement>) {
