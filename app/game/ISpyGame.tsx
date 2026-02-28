@@ -25,8 +25,8 @@ export default function ISpyGame() {
   // game state
   const [found, setFound] = useState(false);
   const [itemPos, setItemPos] = useState({ x: 0, y: 0 });
-  const capsuleRef = useRef<HTMLImageElement | null>(null);
-  const chestRef = useRef<HTMLImageElement | null>(null);
+  //const capsuleRef = useRef<HTMLImageElement | null>(null);
+  //const chestRef = useRef<HTMLImageElement | null>(null);
 
   const ITEM_SIZE = 90;
 
@@ -52,7 +52,7 @@ export default function ISpyGame() {
       draw();
     };
 
-    const capsule = new Image();
+    /* const capsule = new Image();
     capsule.src = "/capsule.png";
     capsule.onload = () => {
         capsuleRef.current = capsule;
@@ -64,12 +64,12 @@ export default function ISpyGame() {
     chest.onload = () => {
         chestRef.current = chest;
         draw();
-    };
+    }; */
 
   }, []);
 
-  const capsulePos = { x: 523, y: 2450 };
-  const chestPos = { x: 4800, y: 2534 };
+  //const capsulePos = { x: 523, y: 2450 };
+  //const chestPos = { x: 4800, y: 2534 };
 
   useEffect(() => {
     const handleResize = () => {
